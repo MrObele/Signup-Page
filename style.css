@@ -11,6 +11,8 @@ header{
 header p{
     display: inline-block;
     margin-top: 0px;
+    font-size: 14px;
+    opacity: 0.8;
 }
 
 header p a{
@@ -20,14 +22,31 @@ header p a{
 header button{
     padding: 0.8%;
     margin-left: 5px;
+    width: 102px;
     height: 34px;
     background: #0077C5;
     color: #fff;
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid rgb(43, 42, 42);
     vertical-align: top;
 }
 
 header button i{
     margin-right: 5px;
+}
+
+
+.title-images {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.product-links img {
+    vertical-align: text-bottom;
+}
+
+.product-links span {
+    font-size: 20px;
+    font-family: sans-serif;
+    opacity: 0.7;
 }
