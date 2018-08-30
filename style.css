@@ -56,7 +56,6 @@ header button i{
 .form-div{
     width: 330px;;
     margin: 20px auto;
-    height: 600px;
     background: #FFFFFF;
     border: 1px solid #80808094;
     padding: 30px;
@@ -109,8 +108,44 @@ form input+span {
     border-radius: 5px;
     
     vertical-align: top;
+    border: none;
 }
 
 .form-group button i{
     margin-right: 5px;
+}
+
+.policy{
+   padding: 0px 26px;
+   text-align: center; 
+   text-align: center;
+   font-size: 12px;
+   color: #aaa;
+}
+.policy a{
+    text-decoration: none;
+    color: #0F7FC8;
+    font-weight: 500;
+}
+.policy em{
+    line-height: 20px;
+    letter-spacing: .08em;
+}
+
+.password{
+    background: url("./images/padlock-open.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+.terms p{
+    line-height: 20px;
+    letter-spacing: .08em;
+}
+
+.terms{
+    background: #ECEEF1;
+    margin: 32px -30px -30px;
+    padding: 16px;
+    text-align: center;  
 }
