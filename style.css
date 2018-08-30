@@ -1,0 +1,33 @@
+body{
+    background: #ECEEF1;
+}
+
+
+header{
+    text-align: right;
+    padding: 0% 2%;
+}
+
+header p{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+header p a{
+   text-decoration: none;
+   color: #1280C8
+}
+header button{
+    padding: 0.8%;
+    margin-left: 5px;
+    height: 34px;
+    background: #0077C5;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid;
+    vertical-align: top;
+}
+
+header button i{
+    margin-right: 5px;
+}
