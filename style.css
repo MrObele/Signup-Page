@@ -5,6 +5,9 @@ body{
     box-sizing: border-box;
 }
 
+a{
+    font-weight: 500;
+}
 
 header{
     text-align: right;
@@ -22,6 +25,13 @@ header p a{
    text-decoration: none;
    color: #1280C8
 }
+
+header p a:hover{
+    text-decoration: none;
+    
+ }
+
+
 header button{
     padding: 0.8%;
     margin-left: 5px;
@@ -71,6 +81,13 @@ h2{
 .form-div p{
     text-align: center;
     padding: 0 16px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #1280C8;
+    font-weight: 500;
+    font-size: smaller;
 }
 input{
     width: 100%;
@@ -133,14 +150,21 @@ form input+span {
 }
 
 .password{
+
     background: url("./images/padlock-open.png");
-    background-position: right center;
+    background-position: right -20px center;
     background-repeat: no-repeat;
-    background-size: 7%;
+    background-size: 23%;
+    opacity: .5;
+    
 }
 .terms p{
     line-height: 20px;
     letter-spacing: .08em;
+    font-size: 10px;
+    color: #8d9096;
+    margin: 0;
+    padding: 0;
 }
 
 .terms{
@@ -148,4 +172,44 @@ form input+span {
     margin: 32px -30px -30px;
     padding: 16px;
     text-align: center;  
+}
+
+.terms a{
+    text-decoration: none;
+    color: #0F7FC8;
+    
+}
+
+footer {
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.licence a {
+    color: #0F7FC8;
+   
+}
+
+.legal a {
+    color: #505050;
+}
+
+.legal span {
+    margin-right: 10px;
+}
+
+.copyright {
+    line-height: 6px;
 }
