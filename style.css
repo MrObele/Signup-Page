@@ -22,11 +22,10 @@ header p{
 }
 
 header p a{
-   text-decoration: none;
    color: #1280C8
 }
 
-header p a:hover{
+header p a, header p a:hover{
     text-decoration: none;
     
  }
