@@ -1,0 +1,211 @@
+body{
+    background: #ECEEF1;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+a{
+    font-weight: 500;
+}
+
+header{
+    text-align: right;
+    padding: 0% 2%;
+}
+
+header p{
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+header p a{
+   color: #1280C8
+}
+
+header p a, header p a:hover{
+    text-decoration: none;
+    
+ }
+
+
+header button{
+    padding: 0.8%;
+    margin-left: 5px;
+    width: 102px;
+    height: 34px;
+    background: #0077C5;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(43, 42, 42);
+    vertical-align: top;
+}
+
+header button i{
+    margin-right: 5px;
+}
+
+
+.title-images {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.product-links img {
+    vertical-align: text-bottom;
+}
+
+.product-links span {
+    font-size: 20px;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+.form-div{
+    width: 330px;;
+    margin: 20px auto;
+    background: #FFFFFF;
+    border: 1px solid #80808094;
+    padding: 30px;
+}
+
+h2{
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+.form-div p{
+    text-align: center;
+    padding: 0 16px;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #1280C8;
+    font-weight: 500;
+    font-size: smaller;
+}
+input{
+    width: 100%;
+    border-radius: 3px;
+    line-height: 1.3em;
+    color: #000;
+    outline: 0;
+    height: 34px;
+    font-size: 1.2em;
+    margin-top: 5px;
+    border: 1px solid #80808066;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+form input+span {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #444;
+}
+
+
+.form-group button {
+    width: 100%;
+    height: 44px;
+    background: #0A7AC8;
+    color: #fff;
+    border-radius: 5px;
+    vertical-align: top;
+    border: none;
+}
+
+.form-group button i{
+    margin-right: 5px;
+}
+
+.policy{
+   padding: 0px 26px;
+   text-align: center;
+   font-size: 12px;
+   color: #aaa;
+}
+.policy a{
+    text-decoration: none;
+    color: #0F7FC8;
+    font-weight: 500;
+}
+.policy em{
+    line-height: 20px;
+    letter-spacing: .08em;
+}
+
+.password{
+
+    background: url("./images/padlock-open.png");
+    background-position: right -20px center;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    opacity: .5;
+    
+}
+.terms p{
+    line-height: 20px;
+    letter-spacing: .08em;
+    font-size: 10px;
+    color: #8d9096;
+    margin: 0;
+    padding: 0;
+}
+
+.terms{
+    background: #ECEEF1;
+    margin: 32px -30px -30px;
+    padding: 16px;
+    text-align: center;  
+}
+
+.terms a{
+    text-decoration: none;
+    color: #0F7FC8;
+    
+}
+
+footer {
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.licence a {
+    color: #0F7FC8;
+   
+}
+
+.legal a {
+    color: #505050;
+}
+
+.legal span {
+    margin-right: 10px;
+}
+
+.copyright {
+    line-height: 6px;
+}
